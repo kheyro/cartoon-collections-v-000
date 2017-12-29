@@ -17,5 +17,5 @@ def find_the_cheese(food)
       return cheese
     end
   end
-  []
+  nil
 end
