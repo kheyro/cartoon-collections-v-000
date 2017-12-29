@@ -3,7 +3,7 @@ def roll_call_dwarves(array)
 end
 
 def summon_captain_planet(veggies)
-  veggies.map(&:capitalize).map { |i| i << "!" }
+  veggies.map(&:capitalize).map(&:<<"!")
 end
 
 def long_planeteer_calls(collection)
