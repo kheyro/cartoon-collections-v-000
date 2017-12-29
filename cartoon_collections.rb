@@ -18,4 +18,5 @@ def find_the_cheese(food)
     else
       []
     end
+  end
 end
